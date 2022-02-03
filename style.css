@@ -1,0 +1,51 @@
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-div {
+  width: 4rem;
+  padding: 2px;
+}
+
+.button-div span {
+  cursor: pointer;
+  padding: 5px 7px;
+  color: white;
+}
+
+.button-div span:hover {
+  cursor: pointer;
+  color: rgb(132, 132, 132);
+}
+
+.click {
+  color: blue;
+}
+
+.delete {
+  background-color: orange;
+}
+
+.checked {
+  background-color: green;
+}
+
+.bi-check-lg,
+.bi-trash-fill {
+  pointer-events: none;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.card ul li {
+  transition: all 0.5s ease;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
